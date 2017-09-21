@@ -1,0 +1,7 @@
+// XXX Configuration 
+const config : Config = {
+    "mg_api_key": "key-xxxxxxxx",
+    "mg_domain": "mg.hauxi.is"
+}
+
+export = config;
