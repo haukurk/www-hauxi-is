@@ -1,19 +1,18 @@
 import * as React from 'react';
+import Greeting from './components/general/Greeting';
+import SocialInformation from './components/general/SocialInformation';
+import ContactForm from './components/general/ContactForm';
+import Footer from './components/layouts/Footer';
 import './App.css';
-
-const logo = require('./logo.svg');
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <Greeting />
+        <SocialInformation />
+        <ContactForm test="fdsg" />
+        <Footer />
       </div>
     );
   }

@@ -1,0 +1,62 @@
+ .topLogo {
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    width: "45px";
+    height: "48px";
+ }
+ 
+ .name {
+     font-weight: 400 !important;
+     font-size: 36px;
+     color: #D84A52 !important;  
+     padding-left: 5px !important;
+     padding-top: 4px !important;
+     padding-bottom: 0px !important;
+ }
+
+ .nav {
+     margin-top: 5px !important;
+     margin-left: 5px !important;
+     margin-right: 5px !important;
+ }
+
+ .ui.left {
+     float: left;
+ }
+
+ .ui.right {
+     float: right;
+ }
+
+ .item.center:before {
+     width: 0 !important;
+ }
+
+ b {
+     color: #E4E4E4;
+ }
+
+ @media only screen and (max-width: 767px) {
+    .ui.stackable.buttons{
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .ui.stackable.buttons > .button{
+      width: 100%;
+    }
+    .nameItem {
+        display: none !important;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    a {
+        color: #282726 !important;
+        font-weight: 400 !important;
+        font-size: 14px;
+    }
+  }
