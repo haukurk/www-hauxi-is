@@ -18923,6 +18923,13 @@ ol.ui.horizontal.list li:before,
   padding: inherit;
 }
 
+.ui.form .fields.error .field label,
+.ui.form .field.error label,
+.ui.form .fields.error .field .input,
+.ui.form .field.error .input {
+  color: #fff;
+}
+
 /*******************************
          Site Overrides
 *******************************/
