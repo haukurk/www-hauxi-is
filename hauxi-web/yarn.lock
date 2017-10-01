@@ -26,6 +26,10 @@
   version "16.0.5"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.0.5.tgz#d713cf67cc211dea20463d2a0b66005c22070c4b"
 
+"@types/validator@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@types/validator/-/validator-6.3.0.tgz#d7454bd67c6a933a9dbe939ae16edbf0f6894e70"
+
 abab@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.3.tgz#b81de5f7274ec4e756d797cd834f303642724e5d"
@@ -7077,6 +7081,10 @@ validate-npm-package-license@^3.0.1:
   dependencies:
     spdx-correct "~1.0.0"
     spdx-expression-parse "~1.0.0"
+
+validator@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-9.0.0.tgz#6c1ef955e007af704adea86ae8a76da84a6c172e"
 
 vary@~1.1.1:
   version "1.1.1"
