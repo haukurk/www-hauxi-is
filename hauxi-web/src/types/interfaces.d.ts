@@ -1,3 +1,5 @@
+// General Interfaces
+
 interface IContactFormProps {
     test: string;
 }
@@ -14,3 +16,4 @@ interface IContactFormState {
     email: string,
     message: string
 }
+
