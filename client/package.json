@@ -1,0 +1,37 @@
+{
+  "name": "hauxi-web",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3001",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-fontawesome": "^1.6.1",
+    "react-redux": "^5.0.6",
+    "react-scripts-ts": "2.7.0",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.15.6",
+    "semantic-ui-react": "^0.73.1",
+    "validator": "^9.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^20.0.8",
+    "@types/node": "^8.0.28",
+    "@types/react": "^16.0.5",
+    "@types/react-dom": "^15.5.4",
+    "@types/react-fontawesome": "^1.6.1",
+    "@types/react-redux": "^5.0.9",
+    "@types/redux": "^3.6.0",
+    "@types/redux-saga": "^0.10.5",
+    "@types/validator": "^6.3.0",
+    "redux-devtools-extension": "^2.13.2",
+    "semantic-ui": "^2.2.13"
+  }
+}
